@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community | NextStep</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="community-page">
+    <!-- Navigation (Same as other pages) -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-route"></i> NextStep
+            </a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="careers.html"><i class="fas fa-briefcase"></i> Careers</a>
+                <a href="quiz.html"><i class="fas fa-question-circle"></i> Quiz</a>
+                <a href="community.html" class="active"><i class="fas fa-users"></i> Community</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="community-hero">
+        <div class="container">
+            <h1>Career Community</h1>
+            <p class="subtitle">Connect with peers, mentors, and industry experts</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search discussions...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discussion Feed -->
+    <section class="discussion-feed">
+        <div class="container">
+            <div class="feed-header">
+                <h2>Recent Discussions</h2>
+                <button class="btn btn-primary" id="newPostBtn">
+                    <i class="fas fa-plus"></i> New Post
+                </button>
+            </div>
+
+            <!-- Discussion Cards -->
+            <div class="discussion-cards">
+                <!-- Card 1 -->
+                <div class="discussion-card">
+                    <div class="user-info">
+                        <div class="avatar" style="background-color: #6e45e2;">JD</div>
+                        <div>
+                            <h4>Jane Doe</h4>
+                            <span class="post-time">2 hours ago</span>
+                        </div>
+                    </div>
+                    <h3>Transitioning from Marketing to UX Design</h3>
+                    <p>Has anyone made this career switch? Looking for advice on building a portfolio without formal experience...</p>
+                    <div class="card-footer">
+                        <span><i class="fas fa-comment"></i> 14 comments</span>
+                        <span><i class="fas fa-heart"></i> 32 likes</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="discussion-card">
+                    <div class="user-info">
+                        <div class="avatar" style="background-color: #07d0b5;">AS</div>
+                        <div>
+                            <h4>Alex Smith</h4>
+                            <span class="post-time">1 day ago</span>
+                        </div>
+                    </div>
+                    <h3>Best Programming Languages for 2024</h3>
+                    <p>Compiling a list of most in-demand languages based on recent job postings. Would love community input!</p>
+                    <div class="card-footer">
+                        <span><i class="fas fa-comment"></i> 26 comments</span>
+                        <span><i class="fas fa-heart"></i> 45 likes</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="discussion-card">
+                    <div class="user-info">
+                        <div class="avatar" style="background-color: #ff7e5f;">TM</div>
+                        <div>
+                            <h4>Taylor M.</h4>
+                            <span class="post-time">3 days ago</span>
+                        </div>
+                    </div>
+                    <h3>Salary Negotiation Tips</h3>
+                    <p>Just successfully negotiated a 20% higher offer - sharing my exact script and what worked...</p>
+                    <div class="card-footer">
+                        <span><i class="fas fa-comment"></i> 38 comments</span>
+                        <span><i class="fas fa-heart"></i> 112 likes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentor Section -->
+    <section class="mentor-section">
+        <div class="container">
+            <h2>Connect with Mentors</h2>
+            <div class="mentor-cards">
+                <!-- Mentor 1 -->
+                <div class="mentor-card">
+                    <div class="mentor-avatar" style="background-color: #9d65c9;">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Sarah Johnson</h3>
+                    <p class="mentor-title">Senior Product Designer @ Google</p>
+                    <p class="mentor-bio">10+ years in UX design, specializing in career transitions</p>
+                    <button class="btn btn-secondary">Request Session</button>
+                </div>
+
+                <!-- Mentor 2 -->
+                <div class="mentor-card">
+                    <div class="mentor-avatar" style="background-color: #2cb67d;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Michael Chen</h3>
+                    <p class="mentor-title">Engineering Manager @ Meta</p>
+                    <p class="mentor-bio">Helping junior developers navigate tech careers</p>
+                    <button class="btn btn-secondary">Request Session</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3><i class="fas fa-route"></i> NextStep</h3>
+        <p>Guiding students to their perfect career</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Ankit-Kumar8651"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/ankit-saini-106585329"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:ankitkr8651005671@outlook.com"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© 2025 NextStep. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- New Post Modal (Hidden by default) -->
+    <div class="modal" id="postModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Create New Post</h3>
+            <form id="postForm">
+                <input type="text" placeholder="Title" required>
+                <textarea placeholder="What would you like to discuss?" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Post to Community</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

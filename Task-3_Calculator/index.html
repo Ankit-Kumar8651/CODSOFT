@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickCalc Pro | Web-D</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#6c5ce7">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+    
+  <div class="calculator-container">
+    <div class="toolbar">
+      <div class="brand">QUICK<span>CALC</span></div>
+      <div class="controls">
+        <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        <button id="history-toggle"><i class="fas fa-history"></i></button>
+      </div>
+    </div>
+    
+    <div class="display-container">
+      <div class="calculation" id="calculation">0</div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <div class="history-panel" id="history-panel">
+    <div class="history-header">
+    <button id="back-button"><i class="fas fa-arrow-left"></i></button>
+    <h3>Calculation History</h3>
+    <button id="clear-history"><i class="fas fa-trash"></i></button>
+    </div>   
+    <div class="history-items" id="history-items"></div>
+    </div>
+
+    <div class="keypad">
+      <button class="btn operator" data-value="AC">AC</button>
+      <button class="btn operator" data-value="DEL"><i class="fas fa-backspace"></i></button>
+      <button class="btn operator" data-value="%">%</button>
+      <button class="btn operator" data-value="/">÷</button>
+      
+      <button class="btn" data-value="7">7</button>
+      <button class="btn" data-value="8">8</button>
+      <button class="btn" data-value="9">9</button>
+      <button class="btn operator" data-value="*">×</button>
+      
+      <button class="btn" data-value="4">4</button>
+      <button class="btn" data-value="5">5</button>
+      <button class="btn" data-value="6">6</button>
+      <button class="btn operator" data-value="-">−</button>
+      
+      <button class="btn" data-value="1">1</button>
+      <button class="btn" data-value="2">2</button>
+      <button class="btn" data-value="3">3</button>
+      <button class="btn operator" data-value="+">+</button>
+      
+      <button class="btn zero" data-value="0">0</button>
+      <button class="btn" data-value=".">.</button>
+      <button class="btn equal" data-value="=">=</button>
+    </div>
+  </div>
+
+  <div class="watermark">Web-D Premium</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
